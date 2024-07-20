@@ -1,0 +1,13 @@
+.container {
+  @apply h-full w-28 bg-[#020203]  flex flex-col items-center gap-4 relative;
+}
+
+.nav_link {
+  @apply w-16 h-16 rounded-lg bg-white flex items-center justify-center;
+}
+
+.copyright {
+  writing-mode: vertical-rl;
+  font-family: Roboto;
+  @apply min-h-fit text-white font-[500] text-[10px] mb-6 rotate-[180deg];
+}
