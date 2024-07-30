@@ -14,6 +14,6 @@ export const getUserAverageSessions = async (userId) => {
     return response.data;
   } catch (error) {
     console.error("Произошла ошибка при выполнении запроса:", error);
-    throw error; // Пробрасываем ошибку дальше для обработки
+    throw error; // Passing error on for processing
   }
 };
